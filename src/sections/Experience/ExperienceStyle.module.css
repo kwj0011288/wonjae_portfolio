@@ -1,0 +1,119 @@
+/* Experience Container */
+.experience-container {
+  padding: 2rem;
+  background-color: var(--background-color, #f9f9f9);
+  color: var(--text-color, #000);
+  font-family: 'Arial', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Header Section */
+.experience-header {
+  margin-bottom: 2rem;
+}
+
+.experience-header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--text-color, #000);
+  margin-bottom: 0.5rem;
+}
+
+.experience-header p {
+  font-size: 1rem;
+  color: var(--secondary-color, #888);
+}
+
+/* Vertical Timeline Styling */
+.vertical-timeline-element-content {
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.vertical-timeline-element-content:hover {
+  transform: translateY(-5px);
+}
+
+.vertical-timeline-element-content-arrow {
+  border-width: 0 7px 7px;
+}
+
+.vertical-timeline-element-date {
+  font-size: 0.9rem;
+  color: var(--secondary-color, #888);
+}
+
+/* Title and Company Name */
+.vertical-timeline-element-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: 1rem;
+  font-weight: semibold;
+  margin: 0;
+}
+
+/* Points List */
+.vertical-timeline-element-content ul {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+  padding: 0;
+  color: inherit;
+}
+
+.vertical-timeline-element-content li {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+/* Icon Styling */
+.vertical-timeline-element-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--icon-bg-color, #ccc);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.vertical-timeline-element-icon img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+/* Line Styling */
+.vertical-timeline::before {
+  background: var(--line-color, #000);
+  transition: background 0.3s ease-in-out;
+  
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .experience-container {
+    padding: 1rem;
+  }
+
+  .experience-header h2 {
+    font-size: 2rem;
+  }
+
+  .experience-header p {
+    font-size: 0.875rem;
+  }
+
+  .vertical-timeline-element-title {
+    font-size: 1.25rem;
+  }
+
+  .vertical-timeline-element-subtitle {
+    font-size: 0.875rem;
+  }
+}
