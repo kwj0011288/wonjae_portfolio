@@ -24,6 +24,36 @@
   color: var(--secondary-color, #888);
 }
 
+/* 애니메이션 스타일 */
+.fadeAnimation {
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.visible.fadeAnimation,
+.fadeAnimation.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.experienceContainer {
+  padding: 2rem;
+}
+
+.experienceHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.experienceHeader.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Vertical Timeline Styling */
 .vertical-timeline-element-content {
   border-radius: 8px;

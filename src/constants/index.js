@@ -1,9 +1,9 @@
 import git from "../assets/GIT2.png";
 import hancom from "../assets/hancom2.png";
 import august from "../assets/august.png";
-import carrent from "../assets/sun.svg";
-import jobit from "../assets/sun.svg";
-import tripguide from "../assets/sun.svg";
+import august_project from "../assets/august_screen.png";
+import kissing_booth from "../assets/man_neutral.png";
+import animal from "../assets/animal.jpg";
 
 
 
@@ -62,67 +62,85 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "August",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "A college scheduling app that helps students organize their timetables efficiently with real-time data.",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Django",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: august_project,
+    source_code_link: "https://github.com/kwj0011288/AugustFE",
+    demo_link: "https://augustapp.one/get",
   },
   {
-    name: "Job IT",
+    name: "AI Couple Compatibility Scoring System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An AI system that analyzes couple compatibility based on facial feature similarities.",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Django",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: kissing_booth,
+    source_code_link: "https://github.com/kwj0011288/AI-Couple-Compatibility-Scoring-System",
+    demo_link: "https://kissing-booth-ai.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Human-to-Animal Facial Resemblance Classifier AI",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An AI model that classifies human faces into animal-like categories based on facial resemblance.",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tensorflow",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Keras",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: animal,
+    source_code_link: "https://github.com/kwj0011288/Face2AnimalClassifier",
   },
 ];
 

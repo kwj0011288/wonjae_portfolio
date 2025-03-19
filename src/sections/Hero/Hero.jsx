@@ -19,16 +19,15 @@ function Hero() {
 
   return (
     <section id="hero" className={styles.container}>
-      <img
+      
+      <div className={styles.colorModeContainer}>
+        <img className={styles.hero} src={heroImg} alt="Profile Picture" />
+        <img
           src={themeIcon}
           alt="Theme Icon"
           className={styles.colorMode}
           onClick={toggleTheme}
         />
-      <div className={styles.colorModeContainer}>
-        
-        <img className={styles.hero} src={heroImg} alt="Profile Picture" onClick={toggleTheme}/>
-        
       </div>
       
       <div className={styles.info}>
